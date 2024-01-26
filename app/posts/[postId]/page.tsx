@@ -2,8 +2,6 @@ import React from 'react'
 import { getPostData, getSortedPostsData } from '@/lib/posts'
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
-import { Html } from 'next/document'
-import { FaSlash } from 'react-icons/fa'
 import Link from 'next/link'
 import getFormattedDate from '@/lib/getFormattedDate'
 
