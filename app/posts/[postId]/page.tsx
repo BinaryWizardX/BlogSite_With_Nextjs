@@ -58,7 +58,7 @@ export default async function post({ params }: { params: { postId: string } }) {
     
     
   return (
-    <main className=" text-white max-w-2xl px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
+    <main className="text-black dark:text-white max-w-2xl px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
     <h1 className="text-3xl mt-4 mb-0">{title}</h1>
     <p className="mt-0">
         {pubDate}
