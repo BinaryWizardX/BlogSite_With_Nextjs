@@ -5,6 +5,14 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import getFormattedDate from '@/lib/getFormattedDate'
 
+export function generateStaticParams() {
+    const posts = getSortedPostsData()
+
+    return posts.map((post) => ({
+        postId: post.id
+    }))
+}
+
 
 type Props = {
     params : {
